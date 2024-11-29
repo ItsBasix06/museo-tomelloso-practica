@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bokor&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Neucha&family=Pacifico&family=Praise&display=swap');
+body{
+    background-image: url("img/FotoMuseo.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    color: rgb(56, 23, 188);
+    border: 4px solid ;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    width: 70%;
+    margin: auto;
+}
+.Eslogan{
+    font-family: "Bokor", system-ui;
+    color: gold;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 4px 6px black;
+}
+.secciones{
+    color: lightcoral;
+    font-family: "Anton", sans-serif;
+    text-shadow: 4px 4px black;
+    border: 3px solid black;
+    background-color: rgb(51, 97, 128);
+    border-radius: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.textos,p{
+    font-family: "Neucha", cursive;
+    font-weight: bold;
+    color: rgb(38, 13, 13);
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 23px;
+}
+a:active{
+    color: black;
+}
+img{
+    width: 100px;
+    float: right;
+}
+h3{
+    font-size: 100px;
+    background-color: red;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 100px;
+    
+}

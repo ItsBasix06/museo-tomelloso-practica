@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Obra de Teatro</title>
+  <link rel="stylesheet" href="formulario.css">
+
+</head>
+<body>
+  <div class="container">
+    <h2>Registro</h2>
+    <form>
+      <div class="group">
+        <label for="nombre">Nombre de la obra</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Rey Leon" required>
+      </div>
+      <div class="group">
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" name="fecha" required>
+      </div>
+      <div class="group">
+        <label for="hora">Hora</label>
+        <input type="time" id="hora" name="hora" required>
+      </div>
+      <div class="group">
+        <label for="director">Director</label>
+        <input type="text" id="director" name="director" placeholder="Ej. Roger Allers">
+      </div>
+      <div class="group">
+        <label for="descripcion">Descripción</label>
+        <textarea id="descripcion" name="descripcion" placeholder="Breve descripción de la obra..."></textarea>
+      </div>
+      <div class="group">
+        <button type="submit">Registrar Obra</button>
+      </div>
+      <div class="footer">
+        <p>Gracias por contribuir al arte teatral 🎭</p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
